@@ -1,0 +1,37 @@
+{
+  "name": "node-route-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap test/**/*.test.js",
+    "start": "fastify start -l info app.js",
+    "dev": "fastify start -w -l info -P app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximilianoOliveiraFurtado/node-route-proxy.git"
+  },
+  "keywords": [],
+  "author": "Maximiliano de Oliveira Furtado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaximilianoOliveiraFurtado/node-route-proxy/issues"
+  },
+  "homepage": "https://github.com/MaximilianoOliveiraFurtado/node-route-proxy#readme",
+  "dependencies": {
+    "fastify": "^3.0.0",
+    "fastify-autoload": "^3.3.1",
+    "fastify-cli": "^2.9.1",
+    "fastify-http-proxy": "^5.0.0",
+    "fastify-plugin": "^3.0.0",
+    "fastify-reply-from": "^5.2.0",
+    "fastify-sensible": "^3.1.1"
+  },
+  "devDependencies": {
+    "tap": "^14.11.0"
+  }
+}
